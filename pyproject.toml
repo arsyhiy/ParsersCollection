@@ -1,5 +1,5 @@
 [project]
-name = "parserscolection"
+name = "parserscollection"
 version = "0.1.0"
 description = ""
 authors = [
@@ -9,14 +9,13 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "bs4 (>=0.0.2,<0.0.3)"
+    "requests (>=2.32.3,<3.0.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-
 
 [virtualenv]
 in-project = true
